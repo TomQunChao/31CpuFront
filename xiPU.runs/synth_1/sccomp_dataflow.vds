@@ -1,0 +1,628 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr 22 18:35:19 2019
+# Process ID: 5732
+# Current directory: D:/workspace/vivado/xiPU/xiPU.runs/synth_1
+# Command line: vivado.exe -log sccomp_dataflow.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+# Log file: D:/workspace/vivado/xiPU/xiPU.runs/synth_1/sccomp_dataflow.vds
+# Journal file: D:/workspace/vivado/xiPU/xiPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7984 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 474.344 ; gain = 98.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sccomp_dataflow' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/sccomp_dataflow.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'iram' [D:/workspace/vivado/xiPU/xiPU.runs/synth_1/.Xil/Vivado-5732-DESKTOP-SG33M3C/realtime/iram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'iram' (1#1) [D:/workspace/vivado/xiPU/xiPU.runs/synth_1/.Xil/Vivado-5732-DESKTOP-SG33M3C/realtime/iram_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (11) of module 'iram' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:75]
+INFO: [Synth 8-6157] synthesizing module 'pclkDiv' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pclkDiv.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pclkDiv' (2#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pclkDiv.v:3]
+INFO: [Synth 8-6157] synthesizing module 'npc' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/npc.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'npc' (3#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/npc.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pc' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pc.v:3]
+WARNING: [Synth 8-5788] Register cAddr_reg in module pc is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pc.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (4#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'control' (5#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clkDivider' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/clkDivider.v:3]
+	Parameter DIV16 bound to: 16 - type: integer 
+WARNING: [Synth 8-5788] Register counter_reg in module clkDivider is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/clkDivider.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'clkDivider' (6#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/clkDivider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v:4]
+	Parameter FUNC_V_ADD bound to: 4'b0010 
+	Parameter FUNC_V_ADDU bound to: 4'b0000 
+	Parameter FUNC_V_SUBU bound to: 4'b0001 
+	Parameter FUNC_V_SUB bound to: 4'b0011 
+	Parameter FUNC_V_AND bound to: 4'b0100 
+	Parameter FUNC_V_OR bound to: 4'b0101 
+	Parameter FUNC_V_XOR bound to: 4'b0110 
+	Parameter FUNC_V_NOR bound to: 4'b0111 
+	Parameter FUNC_V_LUI bound to: 4'b100x 
+	Parameter FUNC_V_SLT bound to: 4'b1010 
+	Parameter FUNC_V_SLTU bound to: 4'b1011 
+	Parameter FUNC_V_SRA bound to: 4'b1100 
+	Parameter FUNC_V_SLL bound to: 4'b111x 
+	Parameter FUNC_V_SRL bound to: 4'b1101 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (7#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/decoder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (8#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/decoder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/regfile.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (9#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/regfile.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ram' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/ram.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (10#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/ram.v:3]
+INFO: [Synth 8-6157] synthesizing module 'extend' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/extend.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'extend' (11#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/extend.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (12#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (13#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux2.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux5bit' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux5bit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux5bit' (14#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux5bit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pcPlusData' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pcPlusData.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'pcPlusData' (15#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pcPlusData.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (16#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:3]
+WARNING: [Synth 8-350] instance 'sccpu' of module 'cpu' requires 27 connections, but only 4 given [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/sccomp_dataflow.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'sccomp_dataflow' (17#1) [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/sccomp_dataflow.v:3]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[31]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[30]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[29]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[28]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[27]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[26]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[31]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[30]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[29]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[28]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[27]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[26]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[25]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[24]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[23]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[22]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[21]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[20]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[19]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[18]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[17]
+WARNING: [Synth 8-3331] design extend has unconnected port dataIn[16]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[10]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[9]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[8]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[7]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[6]
+WARNING: [Synth 8-3331] design control has unconnected port clk
+WARNING: [Synth 8-3331] design control has unconnected port clk2
+WARNING: [Synth 8-3331] design control has unconnected port clk4
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 531.148 ; gain = 155.711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[31] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[30] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[29] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[28] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[27] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[26] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[25] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[24] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[23] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[22] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[21] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[20] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[19] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[18] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[17] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[16] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[15] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[14] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[13] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[12] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[11] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[10] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[9] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[8] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[7] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[6] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[5] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[4] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[3] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[2] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[1] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_2:data3[0] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:94]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[31] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[30] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[29] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[28] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[27] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[26] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[25] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[24] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[23] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[22] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[21] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[20] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[19] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[18] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[17] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[16] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[15] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[14] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[13] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[12] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[11] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[10] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[9] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[8] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[7] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[6] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[5] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[4] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[3] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[2] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[1] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+WARNING: [Synth 8-3295] tying undriven pin mux_4:data3[0] to constant 0 [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v:96]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 531.148 ; gain = 155.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 531.148 ; gain = 155.711
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/workspace/vivado/xiPU/xiPU.srcs/sources_1/ip/iram/iram/iram_in_context.xdc] for cell 'sccpu/ims'
+Finished Parsing XDC File [d:/workspace/vivado/xiPU/xiPU.srcs/sources_1/ip/iram/iram/iram_in_context.xdc] for cell 'sccpu/ims'
+Parsing XDC File [D:/workspace/vivado/xiPU/xiPU.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/workspace/vivado/xiPU/xiPU.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 878.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 878.266 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 878.266 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 878.266 ; gain = 502.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 878.266 ; gain = 502.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for sccpu/ims. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 878.266 ; gain = 502.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "array_reg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 878.266 ; gain = 502.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	                4 Bit    Registers := 2     
++---RAMs : 
+	             128K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	  14 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 19    
+	  14 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 30    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pclkDiv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+Module npc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module pc 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module clkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 30    
+	   2 Input      1 Bit        Muxes := 17    
+Module ram 
+Detailed RTL Component Info : 
++---RAMs : 
+	             128K Bit         RAMs := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module pcPlusData 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+Module cpu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[31]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[30]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[29]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[28]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[27]
+WARNING: [Synth 8-3331] design pcPlusData has unconnected port cmd[26]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[10]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[9]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[8]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[7]
+WARNING: [Synth 8-3331] design decoder has unconnected port cmd[6]
+WARNING: [Synth 8-3331] design control has unconnected port clk
+WARNING: [Synth 8-3331] design control has unconnected port clk2
+WARNING: [Synth 8-3331] design control has unconnected port clk4
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/carry_reg) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/overflow_reg) is unused and will be removed from module sccomp_dataflow.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 878.266 ; gain = 502.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+---------------------+-----------+----------------------+----------------------------------+
+|Module Name     | RTL Object          | Inference | Size (Depth x Width) | Primitives                       | 
++----------------+---------------------+-----------+----------------------+----------------------------------+
+|sccomp_dataflow | sccpu/ram1/data_reg | Implied   | 8 K x 32             | RAM16X1S x 32  RAM256X1S x 512   | 
++----------------+---------------------+-----------+----------------------+----------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 878.871 ; gain = 503.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 881.148 ; gain = 505.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------+---------------------+-----------+----------------------+----------------------------------+
+|Module Name     | RTL Object          | Inference | Size (Depth x Width) | Primitives                       | 
++----------------+---------------------+-----------+----------------------+----------------------------------+
+|sccomp_dataflow | sccpu/ram1/data_reg | Implied   | 8 K x 32             | RAM16X1S x 32  RAM256X1S x 512   | 
++----------------+---------------------+-----------+----------------------+----------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[31]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[30]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[29]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[28]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[27]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[26]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[25]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[24]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[23]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[22]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[21]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[20]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[19]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[18]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[17]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[16]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[15]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[14]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[13]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[12]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[11]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[10]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[9]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[8]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[7]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[6]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[5]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[4]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[3]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[2]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[1]) is unused and will be removed from module sccomp_dataflow.
+WARNING: [Synth 8-3332] Sequential element (sccpu/alu1/r_reg[0]) is unused and will be removed from module sccomp_dataflow.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin sccpui_161:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_162:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_163:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_164:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_165:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_166:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_167:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_168:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_169:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_170:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_171:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_172:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_173:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_174:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_175:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_176:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_177:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_178:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_179:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_180:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_181:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_182:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_183:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_184:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_185:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_186:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_187:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_188:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_189:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_190:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_191:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_192:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_289:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_290:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_291:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin sccpui_292:a to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |iram          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |iram      |     1|
+|2     |BUFG      |     2|
+|3     |CARRY4    |    39|
+|4     |LUT1      |    28|
+|5     |LUT2      |   342|
+|6     |LUT3      |    86|
+|7     |LUT4      |   247|
+|8     |LUT5      |   298|
+|9     |LUT6      |  1062|
+|10    |MUXF7     |   320|
+|11    |MUXF8     |    70|
+|12    |RAM16X1S  |    32|
+|13    |RAM256X1S |   512|
+|14    |FDCE      |  1024|
+|15    |FDPE      |     1|
+|16    |IBUF      |     2|
+|17    |OBUF      |    64|
++------+----------+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |  4161|
+|2     |  sccpu     |cpu        |  4093|
+|3     |    alu1    |alu        |    66|
+|4     |    cpu_ref |regfile    |  3054|
+|5     |    np1     |npc        |    39|
+|6     |    pc1     |pc         |   102|
+|7     |    pcd     |pclkDiv    |     2|
+|8     |    ppd1    |pcPlusData |     8|
+|9     |    ram1    |ram        |   790|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 927.449 ; gain = 552.012
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 115 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 927.449 ; gain = 204.895
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 927.449 ; gain = 552.012
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 973 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 544 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 927.449 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 544 instances were transformed.
+  RAM16X1S => RAM32X1S (inverted pins: WCLK) (RAMS32): 32 instances
+  RAM256X1S => RAM256X1S (inverted pins: WCLK) (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 512 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 185 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 927.449 ; gain = 563.484
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.011 . Memory (MB): peak = 927.449 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/workspace/vivado/xiPU/xiPU.runs/synth_1/sccomp_dataflow.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sccomp_dataflow_utilization_synth.rpt -pb sccomp_dataflow_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 22 18:36:17 2019...

@@ -1,0 +1,25 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/workspace/vivado/xiPU/xiPU.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sim_1/new/cpu_tb.v,1555918581,verilog,,,,cpu_tb,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/ip/iram/sim/iram.v,1555742911,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v,,iram,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/alu.v,1555762391,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/clkDivider.v,,alu,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/clkDivider.v,1555581121,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/control.v,,clkDivider,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/control.v,1555852886,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v,,control,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/cpu.v,1555854593,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/decoder.v,,cpu,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/decoder.v,1555761314,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/extend.v,,decoder,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/extend.v,1555756305,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux2.v,,extend,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/join28.v,1555247336,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux81.v,,join28,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux2.v,1555487009,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux4.v,,mux2,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux4.v,1555470151,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux5bit.v,,mux4,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux5bit.v,1555506717,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/npc.v,,mux5bit,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/mux81.v,1555401522,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/npc.v,,mux81,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/npc.v,1555493390,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pc.v,,npc,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pc.v,1555849977,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pcPlusData.v,,pc,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pcPlusData.v,1555763473,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pclkDiv.v,,pcPlusData,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/pclkDiv.v,1555765666,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/ram.v,,pclkDiv,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/ram.v,1555853913,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/regfile.v,,ram,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/regfile.v,1555855507,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/sccomp_dataflow.v,,regfile,,,,,,,,
+D:/workspace/vivado/xiPU/xiPU.srcs/sources_1/new/sccomp_dataflow.v,1555833171,verilog,,D:/workspace/vivado/xiPU/xiPU.srcs/sim_1/new/cpu_tb.v,,sccomp_dataflow,,,,,,,,

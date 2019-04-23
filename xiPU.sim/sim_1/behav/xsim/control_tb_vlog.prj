@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../xiPU.srcs/sources_1/new/Regfiles.v" \
+"../../../../xiPU.srcs/sources_1/new/add.v" \
+"../../../../xiPU.srcs/sources_1/new/alu.v" \
+"../../../../xiPU.srcs/sources_1/new/clkDivider20.v" \
+"../../../../xiPU.srcs/sources_1/new/clkDivider5.v" \
+"../../../../xiPU.srcs/sources_1/new/control.v" \
+"../../../../xiPU.srcs/sources_1/new/decoder.v" \
+"../../../../xiPU.srcs/sources_1/new/iAddr.v" \
+"../../../../xiPU.srcs/sources_1/new/join28.v" \
+"../../../../xiPU.srcs/sources_1/new/mux81.v" \
+"../../../../xiPU.srcs/sources_1/new/npc.v" \
+"../../../../xiPU.srcs/sources_1/new/ram.v" \
+"../../../../xiPU.srcs/sources_1/new/triState.v" \
+"../../../../xiPU.srcs/sim_1/new/control_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

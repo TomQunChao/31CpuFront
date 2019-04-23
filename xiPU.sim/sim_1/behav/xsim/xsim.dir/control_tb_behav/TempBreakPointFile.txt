@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+36 true D:/workspace/vivado/xiPU/xiPU.srcs/sim_1/new/control_tb.v
+37 true D:/workspace/vivado/xiPU/xiPU.srcs/sim_1/new/control_tb.v
+38 true D:/workspace/vivado/xiPU/xiPU.srcs/sim_1/new/control_tb.v

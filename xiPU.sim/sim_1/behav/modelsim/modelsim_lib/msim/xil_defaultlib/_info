@@ -1,0 +1,685 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/workspace/vivado/xiPU/xiPU.sim/sim_1/behav/modelsim
+vadd
+!s10a 1555401664
+Z1 !s110 1555401855
+!i10b 1
+!s100 U99R@zKoKK<Kd_J?@<@2F0
+I=BHdL`9>4Q9o7CTZGk?O21
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1555401664
+8../../../../xiPU.srcs/sources_1/new/add.v
+F../../../../xiPU.srcs/sources_1/new/add.v
+L0 2
+Z3 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z4 !s108 1555401855.000000
+Z5 !s107 ../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux81.v|../../../../xiPU.srcs/sources_1/new/join28.v|../../../../xiPU.srcs/sources_1/new/iAddr.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/clkDivider5.v|../../../../xiPU.srcs/sources_1/new/clkDivider20.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/add.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+Z6 !s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/add.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/clkDivider20.v|../../../../xiPU.srcs/sources_1/new/clkDivider5.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/iAddr.v|../../../../xiPU.srcs/sources_1/new/join28.v|../../../../xiPU.srcs/sources_1/new/mux81.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/control.v|
+!i113 1
+Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+!s10a 1555762391
+!s110 1555762396
+!i10b 1
+!s100 [MBE@Oi@NAdGk:zG::PjI2
+IzAI[zeRBo`ZifdjfLWH6B0
+R2
+R0
+w1555762391
+8../../../../xiPU.srcs/sources_1/new/alu.v
+F../../../../xiPU.srcs/sources_1/new/alu.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1555762396.000000
+Z8 !s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v|
+Z9 !s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+vbus
+!s10a 1555764929
+!s110 1555764935
+!i10b 1
+!s100 YgjI@b]bo2=VM2:<P;5S@0
+IadJQo3UKm^jgRANBmDGWJ0
+R2
+R0
+w1555764929
+8../../../../xiPU.srcs/sources_1/new/bus.v
+F../../../../xiPU.srcs/sources_1/new/bus.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555764935.000000
+R8
+R9
+!i113 1
+R7
+vclkDivider
+!s10a 1555581121
+!s110 1555581126
+!i10b 1
+!s100 @njFLh`W8`5`>Tk`WAh;X0
+I0IFf6?LWQ549VJk=GZ9nJ1
+R2
+R0
+w1555581121
+8../../../../xiPU.srcs/sources_1/new/clkDivider.v
+F../../../../xiPU.srcs/sources_1/new/clkDivider.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555581126.000000
+!s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+!s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+nclk@divider
+vclkDivider20
+!s10a 1555395534
+R1
+!i10b 1
+!s100 ]zd5Q4QJ]7n4Y<;2a[i<i2
+IMMk5nUlG7iAHVIJePMA?n0
+R2
+R0
+w1555395534
+8../../../../xiPU.srcs/sources_1/new/clkDivider20.v
+F../../../../xiPU.srcs/sources_1/new/clkDivider20.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+nclk@divider20
+vclkDivider5
+!s10a 1555396835
+R1
+!i10b 1
+!s100 GcVCl8IU`n=;k3OKg^=`11
+IT=?9l=Q:R1<K2E4FmNlSL1
+R2
+R0
+w1555396835
+8../../../../xiPU.srcs/sources_1/new/clkDivider5.v
+F../../../../xiPU.srcs/sources_1/new/clkDivider5.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+nclk@divider5
+vcontrol
+Z10 !s110 1555854781
+!i10b 1
+!s100 QlNf=1L[>YcLacDn?n7z=3
+IQUP<=HWzYiaU6hjjlAV4d3
+R2
+R0
+w1555852886
+8../../../../xiPU.srcs/sources_1/new/control.v
+F../../../../xiPU.srcs/sources_1/new/control.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z11 !s108 1555854781.000000
+Z12 !s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/sccomp_dataflow.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/cpu.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v|
+Z13 !s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/cpu.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pclkDiv.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/sccomp_dataflow.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+vcontrol_tb
+!s110 1555414377
+!i10b 1
+!s100 me`Za]=cW<9>Gc?7CBEHK0
+I@ZRcj3V4F8QJ0:fUI>aN]0
+R2
+R0
+w1555414373
+8../../../../xiPU.srcs/sim_1/new/control_tb.v
+F../../../../xiPU.srcs/sim_1/new/control_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555414377.000000
+!s107 ../../../../xiPU.srcs/sim_1/new/control_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux81.v|../../../../xiPU.srcs/sources_1/new/join28.v|../../../../xiPU.srcs/sources_1/new/iAddr.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider5.v|../../../../xiPU.srcs/sources_1/new/clkDivider20.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/add.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+!s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/add.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/clkDivider20.v|../../../../xiPU.srcs/sources_1/new/clkDivider5.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/iAddr.v|../../../../xiPU.srcs/sources_1/new/join28.v|../../../../xiPU.srcs/sources_1/new/mux81.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/control_tb.v|
+!i113 1
+R7
+vcpu
+!s10a 1555854593
+!s110 1555849166
+!i10b 1
+!s100 lS92`B_YQKHzg0GoXzB1:3
+I0ClDF<RVGT`llWeHEg4YI3
+R2
+R0
+w1555849041
+8../../../../xiPU.srcs/sources_1/new/cpu.v
+F../../../../xiPU.srcs/sources_1/new/cpu.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555849166.000000
+R12
+R13
+!i113 1
+R7
+vcpu_tb
+R10
+!i10b 1
+!s100 Z=M4^9Wd5KcOUh=GgPf<z1
+I98B[I`=U6Rl>7<1[`GWZ51
+R2
+R0
+w1555852070
+8../../../../xiPU.srcs/sim_1/new/cpu_tb.v
+F../../../../xiPU.srcs/sim_1/new/cpu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R7
+vdataSelector
+Z14 !s10a 1555503789
+R1
+!i10b 1
+!s100 f_77U00B9dm>fk<ToU2PC1
+IcEnK38VY]g`ld_g@zUj0R3
+R2
+R0
+Z15 w1543147407
+Z16 8../../../../xiPU.srcs/sources_1/new/Regfiles.v
+Z17 F../../../../xiPU.srcs/sources_1/new/Regfiles.v
+L0 71
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ndata@selector
+vdecoder
+!s10a 1555761314
+!s110 1555761320
+!i10b 1
+!s100 BYBUkBLWVm1mjd_9<YLnc2
+I?I0j_JE2LZ_DkfGP=EnRS0
+R2
+R0
+w1555761314
+8../../../../xiPU.srcs/sources_1/new/decoder.v
+F../../../../xiPU.srcs/sources_1/new/decoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555761320.000000
+R8
+R9
+!i113 1
+R7
+vdecoder5_32
+R14
+R1
+!i10b 1
+!s100 K1[XLZhb@]RlWinNA6bl43
+Ie]i?TF@S_Oi]bDzA70IR92
+R2
+R0
+R15
+R16
+R17
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vextend
+!s10a 1555756305
+!s110 1555756310
+!i10b 1
+!s100 oaFMKhHPim[=cX[aO1GS43
+Ij:h?cZnG;44S9R6Qi4gFb3
+R2
+R0
+w1555756305
+8../../../../xiPU.srcs/sources_1/new/extend.v
+F../../../../xiPU.srcs/sources_1/new/extend.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555756310.000000
+R8
+R9
+!i113 1
+R7
+vglbl
+R10
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+I`Mbk0oHiBm0dNc:a>md]<3
+R2
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R3
+r1
+!s85 0
+31
+R11
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R7
+viAddr
+!s10a 1555247345
+R1
+!i10b 1
+!s100 6fE]52Vgk97bc5dc2J9RH0
+InYXl1BBm@kiV:89>1m3e`3
+R2
+R0
+w1555247345
+8../../../../xiPU.srcs/sources_1/new/iAddr.v
+F../../../../xiPU.srcs/sources_1/new/iAddr.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ni@addr
+viram
+!s10a 1555742911
+!s110 1555743476
+!i10b 1
+!s100 hcfEYPJ2cB8O0dGLTk;DW3
+Ih_mGAiM;zdZPY`hG_[mdl3
+R2
+R0
+w1555742911
+8../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v
+F../../../../xiPU.srcs/sources_1/ip/iram/sim/iram.v
+L0 56
+R3
+r1
+!s85 0
+31
+!s108 1555743476.000000
+R8
+R9
+!i113 1
+R7
+vjoin28
+!s10a 1555247336
+R1
+!i10b 1
+!s100 NViz2nb:8SH;M_VGXb5CO2
+IQmkg<4;6;^[`=Tgon2AFF3
+R2
+R0
+w1555247336
+8../../../../xiPU.srcs/sources_1/new/join28.v
+F../../../../xiPU.srcs/sources_1/new/join28.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vmux2
+!s10a 1555487009
+Z18 !s110 1555487136
+!i10b 1
+!s100 @oiNE:8<kPA]k`nIz9P[J0
+IH^8GaDhFJa6JC[[]6bIg_2
+R2
+R0
+w1555487009
+8../../../../xiPU.srcs/sources_1/new/mux2.v
+F../../../../xiPU.srcs/sources_1/new/mux2.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z19 !s108 1555487136.000000
+Z20 !s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+Z21 !s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+vmux4
+!s10a 1555470151
+R18
+!i10b 1
+!s100 Ol=De66Q?Fgo:MEN5:J`i2
+IDdJP0o1SMX90>?kNTO3;50
+R2
+R0
+w1555470151
+8../../../../xiPU.srcs/sources_1/new/mux4.v
+F../../../../xiPU.srcs/sources_1/new/mux4.v
+L0 3
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R7
+vmux5bit
+!s10a 1555506717
+!s110 1555507309
+!i10b 1
+!s100 Ynd_<YJVHflWWQczX_Gd73
+I4VaDhn[lQbDjLCMhc3=iN1
+R2
+R0
+w1555506717
+8../../../../xiPU.srcs/sources_1/new/mux5bit.v
+F../../../../xiPU.srcs/sources_1/new/mux5bit.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555507309.000000
+!s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+!s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/regfile.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+vmux81
+!s10a 1555401522
+R1
+!i10b 1
+!s100 c8`m?Jji7ToRd;C9`?eLA0
+IaJB4PaC6RIP0:OaOgEP[h3
+R2
+R0
+w1555401522
+8../../../../xiPU.srcs/sources_1/new/mux81.v
+F../../../../xiPU.srcs/sources_1/new/mux81.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vnpc
+!s10a 1555493390
+!s110 1555493394
+!i10b 1
+!s100 T3PG=bMhzD:eO=7[:aRUT2
+IUm`T[=7mL[[K90XBZUGZo1
+R2
+R0
+w1555493390
+8../../../../xiPU.srcs/sources_1/new/npc.v
+F../../../../xiPU.srcs/sources_1/new/npc.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1555493394.000000
+R20
+R21
+!i113 1
+R7
+vpc
+!s10a 1555849977
+!s110 1555833178
+!i10b 1
+!s100 F=R^GdzUPchUiO2L[lHl42
+IA7k^XN0QFY;1JFBXBOc3o0
+R2
+R0
+w1555833171
+8../../../../xiPU.srcs/sources_1/new/pc.v
+F../../../../xiPU.srcs/sources_1/new/pc.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555833178.000000
+R12
+R13
+!i113 1
+R7
+vpclkDiv
+!s10a 1555765666
+Z22 !s110 1555830840
+!i10b 1
+!s100 nMBS<<mg7VRk4<DH_KMaE1
+IOKcm>:DK5NfLAi>MFlBe33
+R2
+R0
+w1555765666
+8../../../../xiPU.srcs/sources_1/new/pclkDiv.v
+F../../../../xiPU.srcs/sources_1/new/pclkDiv.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z23 !s108 1555830839.000000
+R12
+R13
+!i113 1
+R7
+npclk@div
+vpcPlusData
+!s10a 1555763473
+!s110 1555763479
+!i10b 1
+!s100 67`5MW8ACgBcIQ_nmUW3`0
+I8NI3O5VA0Ac18f7UD7oC80
+R2
+R0
+w1555763473
+8../../../../xiPU.srcs/sources_1/new/pcPlusData.v
+F../../../../xiPU.srcs/sources_1/new/pcPlusData.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1555763479.000000
+R8
+R9
+!i113 1
+R7
+npc@plus@data
+vpcreg
+R14
+!s110 1555503794
+!i10b 1
+!s100 `_6QDT`HAMi6>8mVLD=lM0
+IO`oN?KfOj5B1Hb5:c0::12
+R2
+R0
+w1555503789
+R16
+R17
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1555503794.000000
+!s107 ../../../../xiPU.srcs/sim_1/new/cpu_tb.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/Regfiles.v|
+!s90 -64|-incr|-work|xil_defaultlib|../../../../xiPU.srcs/sources_1/new/Regfiles.v|../../../../xiPU.srcs/sources_1/new/alu.v|../../../../xiPU.srcs/sources_1/new/bus.v|../../../../xiPU.srcs/sources_1/new/clkDivider.v|../../../../xiPU.srcs/sources_1/new/control.v|../../../../xiPU.srcs/sources_1/new/decoder.v|../../../../xiPU.srcs/sources_1/new/extend.v|../../../../xiPU.srcs/sources_1/new/iram.v|../../../../xiPU.srcs/sources_1/new/mux2.v|../../../../xiPU.srcs/sources_1/new/mux4.v|../../../../xiPU.srcs/sources_1/new/mux5bit.v|../../../../xiPU.srcs/sources_1/new/npc.v|../../../../xiPU.srcs/sources_1/new/pc.v|../../../../xiPU.srcs/sources_1/new/pcPlusData.v|../../../../xiPU.srcs/sources_1/new/ram.v|../../../../xiPU.srcs/sources_1/new/triState.v|../../../../xiPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+R7
+vram
+R10
+!i10b 1
+!s100 e0A=Qjl8hOFSCSQHl8bUz1
+IoCc?WO7`mUaJ;?JUcI2^c1
+R2
+R0
+w1555853913
+8../../../../xiPU.srcs/sources_1/new/ram.v
+F../../../../xiPU.srcs/sources_1/new/ram.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R7
+vregfile
+R10
+!i10b 1
+!s100 fPA5?7i>Cioj>mSWP:24n3
+IKgIPD:^H1G@<:UQo=]gz:2
+R2
+R0
+w1555851131
+8../../../../xiPU.srcs/sources_1/new/regfile.v
+F../../../../xiPU.srcs/sources_1/new/regfile.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R7
+vRegfiles
+R14
+R1
+!i10b 1
+!s100 ^6VE118On2lSE=3BJck7j2
+ISc^3H[DlJ07nhFQdO@gVF3
+R2
+R0
+R15
+R16
+R17
+L0 147
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@regfiles
+vsccomp_dataflow
+!s10a 1555833171
+R22
+!i10b 1
+!s100 9Wfna9d0[N14fLb<l;e6N1
+IW6<TCXgVd[FTblzR0^3k10
+R2
+R0
+w1555769264
+8../../../../xiPU.srcs/sources_1/new/sccomp_dataflow.v
+F../../../../xiPU.srcs/sources_1/new/sccomp_dataflow.v
+L0 3
+R3
+r1
+!s85 0
+31
+R23
+R12
+R13
+!i113 1
+R7
+vtriState
+!s10a 1555249141
+R1
+!i10b 1
+!s100 JX8kD13jTRddWOo4j39YW3
+I4MB=`GT3lkKTK8;<>D;cn0
+R2
+R0
+w1555249141
+8../../../../xiPU.srcs/sources_1/new/triState.v
+F../../../../xiPU.srcs/sources_1/new/triState.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntri@state
